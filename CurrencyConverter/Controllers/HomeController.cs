@@ -2,6 +2,7 @@ using CurrencyConverter.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+
 namespace CurrencyConverter.Controllers
 {
     public class HomeController : Controller
@@ -18,10 +19,6 @@ namespace CurrencyConverter.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
